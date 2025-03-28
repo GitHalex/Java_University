@@ -23,6 +23,19 @@ public class Shortfall {
         float temperatura = 36.5F;
         System.out.println("Temperatura: " + temperatura);
 
+//        DOUBLE (64 bits) para numeros decimales con mas precision
+        double precio = 99.99;
+        System.out.println("Precio: " + precio);
+
+//        CHAR (16 bits) Almacena un solo caracter UNICOE (Letras, numeros y simbolos)
+        char inicial = 'A';
+        System.out.println("Inicial: " + inicial);
+
+//        BOOLEAN (1 bit) solo puede ser true o false
+        boolean esMayorDeEdad = true;
+        System.out.println("¿Es mayor de edad?: " + esMayorDeEdad);
+
+
 
     }
 }
