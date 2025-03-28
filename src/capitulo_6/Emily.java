@@ -8,5 +8,8 @@ public class Emily {
         System.out.print("He bit an angle-worm in halves");
         System.out.print("And ate the fellow, raw.");
         System.out.print("Some String");
+        double number = 1.2;
+        System.out.println(number);
+
     }
 }
