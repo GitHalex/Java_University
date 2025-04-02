@@ -20,6 +20,10 @@ public class Example {
         total = suma;
         System.out.println("The sum of all numbers is: " + suma);
 
+        int quantity = 7;
+        quantity = 13;
+        System.out.println("quantity: " + quantity);
+
     }
 }
 
