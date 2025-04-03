@@ -24,6 +24,16 @@ public class Example {
         quantity = 13;
         System.out.println("quantity: " + quantity);
 
+        int value = 5;
+        value = 12 + value;
+        System.out.println("The value is: " + value);
+
+        int count = 2;                  // statement 1
+        System.out.println( count ) ;   // statement 2
+
+        count = count + 1;              // statement 3
+        System.out.println( count ) ;   // statement 4
+
     }
 }
 
