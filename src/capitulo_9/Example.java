@@ -34,6 +34,9 @@ public class Example {
         count = count + 1;              // statement 3
         System.out.println( count ) ;   // statement 4
 
+        float cinco = 5.0F;
+        System.out.println(cinco/10);
+
     }
 }
 
