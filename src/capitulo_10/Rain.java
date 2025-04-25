@@ -12,7 +12,7 @@ public class Rain {
         System.out.println("precipitacion media: " + total);
 
         System.out.println("###############Trigonometria################");
-        double radianes = 0.5636;
+        double radianes = 0.523598;
 
         double seno = Math.sin(radianes);
         double coseno = Math.cos(radianes);
@@ -20,6 +20,11 @@ public class Rain {
         System.out.println("Seno: " + seno);
         System.out.println("Coseno: " + coseno);
         System.out.println("Suma de cuadrados: " + suma);
+
+        System.out.println("#####Grados a Radianes############");
+        int grados = 30;
+        double radian = grados * Math.PI/180;
+        System.out.println("grados " + grados + " a radianes => " + radian);
 
     }
 }
