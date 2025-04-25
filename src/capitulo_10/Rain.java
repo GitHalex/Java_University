@@ -11,5 +11,15 @@ public class Rain {
         System.out.println("Luvias para el \t" + june + " de junio");
         System.out.println("precipitacion media: " + total);
 
+        System.out.println("###############Trigonometria################");
+        double radianes = 0.5636;
+
+        double seno = Math.sin(radianes);
+        double coseno = Math.cos(radianes);
+        double suma = seno*seno + coseno*seno;
+        System.out.println("Seno: " + seno);
+        System.out.println("Coseno: " + coseno);
+        System.out.println("Suma de cuadrados: " + suma);
+
     }
 }
