@@ -20,7 +20,6 @@ public class Rain {
         System.out.println("Seno: " + seno);
         System.out.println("Coseno: " + coseno);
         System.out.println("Suma de cuadrados: " + suma);
-
         System.out.println("#####Grados a Radianes############");
         int grados = 30;
         double radian = grados * Math.PI/180;
